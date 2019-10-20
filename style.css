@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://source.unsplash.com/1200x1000/?network");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.textview{
+    width: 217px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    outline: none;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: rgba(0,0,0, .3);
+    border-radius: 5px;
+}
+
